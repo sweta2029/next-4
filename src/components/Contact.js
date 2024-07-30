@@ -5,7 +5,7 @@ const Contact = () => {
         <div className="container">
           <div className="infobox">
             <div className="video_button">
-              <img className="anim_circle" src="img/hero/5.jpg" alt="" />
+              <img className="anim_circle" src="img/hero/3.jpg" alt="" />
             </div>
             <div className="text">
               <h3>{`Let's`} work together</h3>

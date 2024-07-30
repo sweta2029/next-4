@@ -97,7 +97,7 @@ const Home = ({ dark }) => {
       >
         <div className="img">
           <img
-            src={`img/hero/${dark ? 5 : 5}.jpg`}
+            src={`img/hero/${dark ? 3 : 4}.jpg`}
             alt=""
             style={{ height: "80vh" }}
           />
