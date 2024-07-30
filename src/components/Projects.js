@@ -75,7 +75,7 @@ const Projects = () => {
                       {/* <img src="img/thumbs/37-40.jpg" alt="" /> */}
                       <img
                         className="main"
-                        // src="img/service/HTC.jpeg"
+                        src="img/service/HTC.jpeg"
                         style={{
                           objectFit: "fill",
                           height: 180,

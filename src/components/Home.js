@@ -12,23 +12,17 @@ const Home = ({ dark }) => {
             </div>
             <div className="text">
               <p>
-                I’m a software developer based in the UAE, dedicated to crafting
-                cutting-edge solutions and transforming ideas into robust,
-                user-centric software. With a passion for technology and a
-                commitment to excellence, I create intuitive applications
-                designed to address real-world challenges.
-              </p>
-              <br></br>
-              <p>
-                Explore my portfolio to experience the seamless blend of
-                creativity and technical expertise that drives my work. Here,
-                you’ll find a collection of projects that highlight my
-                dedication to building tomorrow's technology today. Join me on
-                this journey and discover how I turn innovative concepts into
-                impactful software solutions.
+                I am a software developer based in the UAE, specializing in
+                creating innovative solutions that turn visionary ideas into
+                practical, user-focused applications. With a deep passion for
+                technology and a dedication to delivering high-quality results,
+                I craft intuitive and robust software tailored to meet
+                real-world needs and challenges. My commitment to excellence
+                drives me to leverage cutting-edge technologies and best
+                practices, ensuring that every project I undertake is not only
+                functional but also exceptional in its design and execution.
               </p>
             </div>
-
             <div className="buttons" style={{ marhinTop: 20 }}>
               <div className="orido_tm_boxed_button">
                 <a className="anchor" href="#contact">
@@ -97,7 +91,7 @@ const Home = ({ dark }) => {
       >
         <div className="img">
           <img
-            src={`img/hero/${dark ? 3 : 4}.jpg`}
+            src={`img/hero/${dark ? 5 : 5}.jpg`}
             alt=""
             style={{ height: "80vh" }}
           />
