@@ -29,9 +29,9 @@ const Projects = () => {
             <div className="orido_tm_main_title">
               <h3>
                 <span>
-                  Look at my
-                  <br />
-                  recent projects
+                  {/* Look at my
+                  <br /> */}
+                  Recent Projects
                 </span>
               </h3>
             </div>
@@ -75,7 +75,7 @@ const Projects = () => {
                       {/* <img src="img/thumbs/37-40.jpg" alt="" /> */}
                       <img
                         className="main"
-                        src="img/service/htc.png"
+                        src="img/service/HTC.jpeg"
                         style={{
                           objectFit: "fill",
                           height: 180,

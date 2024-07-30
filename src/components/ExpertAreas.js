@@ -34,7 +34,7 @@ const experiences = [
 const educations = [
   {
     institution: "JSpider Bangalore",
-    certificate: "Java full stack development",
+    certificate: "full stack developer",
     time: "2017 - 2018",
   },
   {
@@ -62,39 +62,45 @@ const ExpertAreas = () => {
               <div className="left">
                 <div className="orido_tm_main_title">
                   <h3>
-                    <span>
-                      My expert
-                      <br />
-                      areas
-                    </span>
+                    <span>Areas of Expertise</span>
                   </h3>
                 </div>
                 <div className="text">
                   <p>
-                    With a deep understanding of React.js, I specialize in
-                    crafting dynamic and interactive user interfaces. Proficient
-                    in leveraging Reacts component-based architecture and state
-                    management for seamless front-end development.
+                    With 6 years of experience as a software developer, I
+                    specialize in crafting seamless digital experiences using
+                    React JS, Next JS, React Native, and Node JS. My expertise
+                    lies in transforming innovative ideas into efficient,
+                    user-friendly software solutions. I am passionate about
+                    collaborating with fellow developers, designers, and tech
+                    enthusiasts to brainstorm solutions and dive into tech
+                    discussions.
                   </p>
                   <p>
-                    As a Next.js enthusiast, I harness the power of server-side
-                    rendering and static site generation to create blazing-fast,
-                    SEO-friendly web applications. Skilled in optimizing
-                    performance and building scalable projects using Next.js.
+                    <strong>Expert Areas</strong>
                   </p>
                   <p>
-                    I excel in developing cross-platform mobile applications
-                    using React Native, ensuring a native-like experience across
-                    iOS and Android platforms. Well-versed in creating
-                    efficient, visually appealing mobile solutions.
+                    <strong>React JS:</strong> Crafting dynamic, interactive
+                    user interfaces with a deep understanding of component-based
+                    architecture and state management.
                   </p>
                   <p>
-                    With Node.js, I wield the ability to build robust, scalable
-                    back-end solutions. Leveraging its asynchronous nature, I
-                    design and implement APIs, handle data, and ensure seamless
-                    communication between the front and back end.
+                    <strong>Next JS:</strong> Leveraging server-side rendering
+                    and static site generation for fast, SEO-friendly web
+                    applications while optimizing performance and scalability.
+                  </p>
+                  <p>
+                    <strong>React Native:</strong> Developing cross-platform
+                    mobile applications with a native-like experience for both
+                    iOS and Android.
+                  </p>
+                  <p>
+                    <strong>Node JS:</strong> Building robust, scalable back-end
+                    solutions, designing and implementing APIs, and ensuring
+                    smooth communication between front and back end.
                   </p>
                 </div>
+
                 {/* <div className="orido_tm_boxed_button">
                   <a href="#">
                     My Resume{" "}

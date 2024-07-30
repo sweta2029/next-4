@@ -19,51 +19,51 @@ export const AI_ATTENDANCE_SYSTEM = {
 export const CRM_PROJECT = {
   projectName: "CRM Project",
   description:
-    "Integrated the trading and swapping platform with Meta Trader 5(MT5) server, enabling seamless connectivity and data exchange with financial markets. Designed and implemented complex trading algorithms and risk management systems to optimize trading strategies and mitigate financial risks",
+    "Developed a comprehensive CRM system designed to streamline customer interactions and manage business relationships efficiently. The project involved integrating user management features, sales tracking, and customer support functionalities. Implemented advanced data analytics and reporting tools to enhance decision-making and optimize customer engagement strategies.",
   frontend: "HTML, CSS, MUI, React js, Redux-toolkit",
   backend: "Nodejs",
-  database: "MS SQL",
+  database: "MongoDB",
   authentication: "JWT",
   deliverables: [
-    "Fully functional frontend interface developed with React Js",
-    "Secure and scalable backend system built on Node js",
-    "Database structure and implementation",
-    "My Current company is the world's leading digital currency trading platform, providing Bitcoin,Ethereum, USDT, and other digital asset transactions. Trade anytime, anywhere. Trade crypto on your terms.",
+    "User-friendly frontend interface for managing customer interactions and data, built with React Js",
+    "Robust and secure backend infrastructure to handle CRM operations, developed using Node js",
+    "Comprehensive database schema and implementation for storing and retrieving customer information",
+    "Advanced data analytics and reporting tools to track sales performance and customer engagement",
+    "Integration of authentication and authorization mechanisms to ensure secure access to CRM functionalities",
   ],
 };
 
 export const STATE_FARM_PROJECT = {
   projectName: "Earnings Reporting",
   description:
-    "The main objective of this project is to convert mainframe screens to web-based single-page applications. This helps the user perform various operations easily and increases user experience. Authenticated users can add various forms, update existing data, and delete records based on the requirement. Where we developed web screens which allow users to search providers based on vendor information, allow the user to add a new provider manually, allows user to edit provider and view the name and address of the vendors getting added and make sure the initial flow and correction flow as per the business requirement works smooth. The responsive application supports multiple devices like mobile, tablets and desktops.",
-  frontend: "React Js",
+    "The Earnings Reporting project involves transforming traditional mainframe applications into a modern web-based single-page application (SPA). This initiative is aimed at enhancing user experience by providing a streamlined interface for managing provider information. Authenticated users can efficiently perform operations such as adding new providers, updating existing records, and deleting obsolete data. The application features comprehensive search capabilities for locating providers based on vendor information, as well as options to manually add and edit provider details. It also supports viewing provider names and addresses and ensures that both initial and correction flows align with business requirements. Designed to be responsive, the application is accessible across various devices, including mobile phones, tablets, and desktops, offering a seamless user experience on all platforms.",
+  frontend: "React JS, HTML, CSS, MUI, Redux-toolkit",
   backend: "Java",
-  database: "My SQL",
+  database: "PostgreSQL",
   authentication: "JWT",
   deliverables: [
-    "Fully functional frontend interface developed with React js",
-    "Secure and scalable backend system built on Java",
-    "Database structure and implementation",
-    "User authentication and profile management system",
-    "Student rotation management and assessment tools",
-    "Feedback and reporting features",
-    "Comprehensive documentation covering system architecture, API endpoints, and usage guidelines",
+    "A responsive and intuitive frontend interface developed with React.js, incorporating HTML, CSS, MUI for design consistency, and Redux-toolkit for state management.",
+    "A secure and scalable backend system developed using Java to handle data operations and business logic.",
+    "Comprehensive database design and implementation using MySQL to store and manage provider information.",
+    "Robust user authentication and profile management system utilizing JWT to ensure secure access and personalized user experiences.",
+    "Advanced search functionality allowing users to find providers based on vendor information and perform CRUD operations.",
+    "Responsive design ensuring compatibility across mobile devices, tablets, and desktops, providing a consistent user experience across all platforms.",
   ],
 };
 
 export const CONSOLIDATED = {
   projectName: "Consolidated 1099",
   description:
-    "The main objective of this project is to convert mainframe screens to web-based single-page applications. This helps users to perform various operations with ease and increases user experience. The consolidated 1099 Application is developed for State Farm Business partners to perform CRUD operations in tax forms and can be accessible to different profile users. It involves File upload where bulk data is processed.",
-
+    "The Consolidated 1099 project aims to modernize and streamline the process of managing tax forms by converting legacy mainframe applications into a modern web-based single-page application (SPA). Designed for State Farm business partners, this application facilitates efficient CRUD (Create, Read, Update, Delete) operations on tax forms. The platform also supports bulk data processing through file uploads, enhancing operational efficiency and user experience. The application is tailored to accommodate various user profiles with specific access levels and permissions.",
   frontend: "HTML, CSS, MUI, React JS, Redux-toolkit",
   backend: "Java",
   database: "MS SQL",
   authentication: "JWT",
   deliverables: [
-    "A fully functional Learning Management System (LMS) using React.js for frontend and .NET for backend.",
-    "User-friendly interfaces for course browsing, enrollment, and progress tracking.",
-    "Secure user authentication and role-based access control.",
-    "Comprehensive reporting and analytics features for tracking employee learning activities.",
+    "A modern single-page application (SPA) for managing 1099 tax forms, developed using React.js for a dynamic and responsive user experience.",
+    "Comprehensive backend system built with Java to handle CRUD operations and file uploads for bulk data processing.",
+    "User interface designs that streamline tax form management and provide intuitive navigation.",
+    "Secure authentication and role-based access control using JWT to ensure proper access levels for different user profiles.",
+    "Efficient processing of bulk data through file upload functionality, integrating seamlessly with the web-based application.",
   ],
 };

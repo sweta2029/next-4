@@ -3,8 +3,8 @@ const DetailsPopup = ({ data, open, close }) => {
   return (
     <Popup open={open} close={close}>
       <div className="popup_details">
-        <div className="" style={{marginBottom: 20  }}>
-          <img src={data.src} alt="" height={100} />
+        <div className="">
+          <img src={data.src} alt="" />
           {/* <div
             className="main"
             data-img-url="img/portfolio/4.jpg"
@@ -22,9 +22,7 @@ const DetailsPopup = ({ data, open, close }) => {
         </div>
         <div className="main_details">
           <div className="textbox">
-            <p>
-              {data.description}
-            </p>
+            <p>{data.description}</p>
           </div>
           <div className="detailbox">
             <ul>
@@ -34,9 +32,7 @@ const DetailsPopup = ({ data, open, close }) => {
               </li>
               <li>
                 <span className="first">BackEnd</span>
-                <span>
-                 {data.backend}
-                </span>
+                <span>{data.backend}</span>
               </li>
               <li>
                 <span className="first">Database</span>
@@ -50,15 +46,15 @@ const DetailsPopup = ({ data, open, close }) => {
           </div>
         </div>
         <div className="">
-        <h3>Deliverables</h3>
-            <ul style={{marginLeft: 20}}>
-              {data.deliverables?.map((item, index) => 
+          <h3>Deliverables</h3>
+          <ul style={{ marginLeft: 20 }}>
+            {data.deliverables?.map((item, index) => (
               <li key={index}>
                 <span>{item}</span>
               </li>
-              )}
-              </ul>
-              </div>
+            ))}
+          </ul>
+        </div>
         {/* <div className="additional_images">
           <ul>
             <li>

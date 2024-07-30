@@ -5,20 +5,16 @@ const Contact = () => {
         <div className="container">
           <div className="infobox">
             <div className="video_button">
-              {/* <a
-                className="popup-youtube"
-                href="https://www.youtube.com/watch?v=7e90gBu4pas"
-              > */}
-              <img className="anim_circle" src="img/hero/3.jpg" alt="" />
-              {/* <img className="svg" src="img/svg/play.svg" alt="" /> */}
-              {/* </a> */}
+              <img className="anim_circle" src="img/hero/5.jpg" alt="" />
             </div>
             <div className="text">
               <h3>{`Let's`} work together</h3>
               <p>
-                {`Let's`} embark on this journey together, where your objectives
-                become our mission, and our collaborative efforts pave the way
-                for your business triumph.
+                Let's join forces to turn your vision into reality. Together, we
+                can transform your goals into actionable strategies and work
+                towards achieving outstanding results for your business. I look
+                forward to collaborating with you and making our combined
+                efforts a success.
               </p>
             </div>
             <div className="orido_tm_boxed_button">
@@ -39,7 +35,7 @@ const Contact = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      +971 523791751
+                      +971 569614386
                     </a>
                   </p>
                 </li>
@@ -77,7 +73,7 @@ const Contact = () => {
                   </li>
                   <li>
                     <a
-                      // href="https://github.com/"
+                      href="https://github.com/sweta2029/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

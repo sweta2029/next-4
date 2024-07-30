@@ -12,18 +12,23 @@ const Home = ({ dark }) => {
             </div>
             <div className="text">
               <p>
-                Welcome to my portfolio, I am a software Developer based in UAE.
-                I specialize in crafting cutting-edge solutions through code,
-                transforming ideas into robust, user-centric software. With a
-                passion for technology and a drive for excellence, I bring to
-                life intuitive applications that solve real-world problems.
-                Explore my portfolio to witness the seamless fusion of
-                creativity and technical expertise, exemplifying my commitment
-                to delivering high-quality, impactful software solutions. Join
-                me on a journey through a collection of projects that showcase
-                my dedication to building tomorrows technology today.
+                I’m a software developer based in the UAE, dedicated to crafting
+                cutting-edge solutions and transforming ideas into robust,
+                user-centric software. With a passion for technology and a
+                commitment to excellence, I create intuitive applications
+                designed to address real-world challenges.
+              </p>
+              <br></br>
+              <p>
+                Explore my portfolio to experience the seamless blend of
+                creativity and technical expertise that drives my work. Here,
+                you’ll find a collection of projects that highlight my
+                dedication to building tomorrow's technology today. Join me on
+                this journey and discover how I turn innovative concepts into
+                impactful software solutions.
               </p>
             </div>
+
             <div className="buttons" style={{ marhinTop: 20 }}>
               <div className="orido_tm_boxed_button">
                 <a className="anchor" href="#contact">
@@ -54,7 +59,7 @@ const Home = ({ dark }) => {
             </li>
             <li>
               <a
-                // href=""
+                href="https://github.com/sweta2029/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -92,7 +97,7 @@ const Home = ({ dark }) => {
       >
         <div className="img">
           <img
-            src={`img/hero/${dark ? 3 : 4}.jpg`}
+            src={`img/hero/${dark ? 5 : 5}.jpg`}
             alt=""
             style={{ height: "80vh" }}
           />
